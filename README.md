@@ -1,16 +1,159 @@
-# React + Vite
+# 🚀 Ramindu Sulakkana — Professional Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This project was designed and developed to professionally showcase my skills, projects, creativity, and passion for technology as a **Data Science Undergraduate**.
 
-Currently, two official plugins are available:
+The portfolio reflects my interests in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Machine Learning  
+📊 Data Analytics  
+🌐 Full Stack Development  
+🤖 Artificial Intelligence  
+💻 Modern Web Technologies  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# ✨ Portfolio Overview
 
-## Expanding the ESLint configuration
+This portfolio is built with a modern and responsive user interface to provide a clean and interactive user experience across all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It includes:
+- Professional Hero Section
+- About Me Section
+- Technical Skills Showcase
+- Featured Projects
+- Contact Section
+- Dark / Light Mode
+- Interactive UI Components
+- Modern Responsive Layout
+
+The main goal of this portfolio is to present my technical background, academic projects, and development experience in a professional and visually appealing way.
+
+---
+
+# ⚡ Features
+
+✅ Responsive Modern UI  
+✅ Dark / Light Mode  
+✅ Project Showcase Cards  
+✅ Interactive Hover Effects  
+✅ Mobile Friendly Design  
+✅ GitHub Integration  
+✅ LinkedIn Integration  
+✅ Professional Contact Section  
+✅ Download CV Option  
+✅ Modern Animations & UI Effects  
+
+---
+
+# 🛠️ Technologies & Tools Used
+
+## Frontend Development
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Icons
+
+## Development Tools
+- Git
+- GitHub
+- VS Code
+- Netlify
+
+---
+
+# 🚀 Featured Projects
+
+## 🚍 HighwayGo LK
+A MERN stack based bus booking and GPS tracking application designed for Sri Lankan public transportation.
+
+### Features
+- User Authentication
+- Seat Booking
+- Route Management
+- Responsive Modern UI
+
+---
+
+## 🎓 Student Performance Prediction
+A machine learning project that predicts student performance using academic and behavioral data.
+
+### Technologies
+- Python
+- Pandas
+- Machine Learning
+
+---
+
+## 📊 Sales Analytics Dashboard
+An interactive dashboard for visualizing business performance, revenue analytics, and customer insights.
+
+### Technologies
+- Power BI
+- SQL
+- Excel
+
+---
+
+# 📂 Portfolio Sections
+
+## 🏠 Home
+Professional hero section introducing myself and my technical focus areas.
+
+## 👨‍💻 About Me
+Information about my background, interests, and career goals in Data Science and Software Development.
+
+## ⚡ Skills
+Displays my technical skills including:
+- Python
+- Machine Learning
+- Data Analytics
+- SQL
+- Power BI
+- React
+- Node.js
+- MongoDB
+
+## 🚀 Projects
+Showcases completed projects with:
+- Project Images
+- Technology Stacks
+- GitHub Repositories
+- Demo Links
+
+## 📞 Contact
+Professional contact section with:
+- Email
+- Phone Number
+- Location
+- Social Media Links
+
+---
+
+# 🌐 Deployment
+
+This portfolio website was successfully deployed using **Netlify** 🚀
+
+🔗 Live Website:  
+https://ramindusulakkana.netlify.app
+
+Special thanks to **Netlify** for providing free and reliable hosting for modern web applications.
+
+---
+
+# 🙏 Thank You
+
+Thank you for visiting my portfolio website!  
+I appreciate your time and interest in exploring my projects and technical work.
+
+Feel free to connect with me through GitHub or LinkedIn. 🚀
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dmrs2003/portfolio.git
+
+
