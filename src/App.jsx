@@ -347,114 +347,126 @@ export default function App() {
       </section>
 
       {/* CONTACT */}
-      <section
-        id="contact"
-        className="mx-auto max-w-7xl px-6 py-24"
-      >
-        <h2 className="mb-10 text-5xl font-black text-blue-500">
-          Contact
-        </h2>
+<section id="contact" className="mx-auto max-w-6xl px-6 py-20">
+  <h2
+    className={`mb-8 text-4xl font-black md:text-5xl ${
+      darkMode ? "text-blue-400" : "text-blue-700"
+    }`}
+  >
+    Contact
+  </h2>
 
-        <div className="grid gap-10 lg:grid-cols-2">
-          {/* LEFT CONTACT */}
-          <div className="rounded-xl bg-slate-800 p-8">
-            <p className="mb-10 text-xl leading-9 text-slate-300">
-              I'm always open to discussing new projects,
-              creative ideas, or opportunities to be part of
-              your visions.
-            </p>
-
-            <div className="space-y-8">
-              <div className="flex items-center gap-5">
-                <div className="grid h-16 w-16 place-items-center rounded-full bg-blue-500/20 text-3xl text-blue-400">
-                  <FaEnvelope />
-                </div>
-
-                <p className="text-lg text-slate-300">
-                  ramindusulakkana08@gmail.com
-                </p>
-              </div>
-
-              <div className="flex items-center gap-5">
-                <div className="grid h-16 w-16 place-items-center rounded-full bg-blue-500/20 text-3xl text-blue-400">
-                  <FaPhone />
-                </div>
-
-                <p className="text-lg text-slate-300">
-                  +94 76 498 8570
-                </p>
-              </div>
-
-              <div className="flex items-center gap-5">
-                <div className="grid h-16 w-16 place-items-center rounded-full bg-blue-500/20 text-3xl text-blue-400">
-                  <FaMapMarkerAlt />
-                </div>
-
-                <p className="text-lg text-slate-300">
-                  Sri Lanka
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* CONTACT FORM */}
-          <form className="space-y-7">
-            <div>
-              <label className="mb-3 block font-semibold">
-                Name
-              </label>
-
-              <input
-                type="text"
-                placeholder="Your name"
-                className="w-full rounded-xl border border-slate-600 bg-slate-800 px-6 py-5 text-white outline-none focus:border-blue-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-3 block font-semibold">
-                Email
-              </label>
-
-              <input
-                type="email"
-                placeholder="username@domain.com"
-                className="w-full rounded-xl border border-slate-600 bg-slate-800 px-6 py-5 text-white outline-none focus:border-blue-500"
-              />
-            </div>
-
-            <div>
-              <label className="mb-3 block font-semibold">
-                Message
-              </label>
-
-              <textarea
-                placeholder="Your message..."
-                className="h-56 w-full resize-none rounded-xl border border-slate-600 bg-slate-800 px-6 py-5 text-white outline-none focus:border-blue-500"
-              ></textarea>
-            </div>
-
-            <button
-              type="button"
-              className="w-full rounded-xl bg-blue-600 px-6 py-5 font-bold text-white hover:bg-blue-500"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <footer
-        className={`border-t py-8 text-center ${
-          darkMode
-            ? "border-white/10 text-slate-400"
-            : "border-slate-200 text-slate-600"
+  <div className="grid gap-8 lg:grid-cols-2">
+    {/* LEFT CONTACT */}
+    <div
+      className={`rounded-2xl border p-7 ${
+        darkMode
+          ? "border-white/10 bg-slate-800"
+          : "border-slate-200 bg-white shadow-lg"
+      }`}
+    >
+      <p
+        className={`mb-8 text-lg leading-8 ${
+          darkMode ? "text-slate-300" : "text-slate-700"
         }`}
       >
-        © 2026 Ramindu Sulakkana. Built with React &
-        Tailwind CSS.
-      </footer>
+        I'm always open to discussing new projects, creative ideas, or
+        opportunities to be part of your visions.
+      </p>
+
+      <div className="space-y-6">
+        {[
+          [FaEnvelope, "ramindusulakkana08@gmail.com"],
+          [FaPhone, "+94 76 498 8570"],
+          [FaMapMarkerAlt, "Sri Lanka"],
+        ].map(([Icon, value]) => (
+          <div key={value} className="flex items-center gap-4">
+            <div
+              className={`grid h-13 w-13 place-items-center rounded-full text-2xl ${
+                darkMode
+                  ? "bg-blue-500/20 text-blue-400"
+                  : "bg-blue-100 text-blue-700"
+              }`}
+            >
+              <Icon />
+            </div>
+
+            <p
+              className={`text-base md:text-lg ${
+                darkMode ? "text-slate-300" : "text-slate-700"
+              }`}
+            >
+              {value}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
-  );
+
+    {/* CONTACT FORM */}
+    <form className="space-y-5">
+      <div>
+        <label className="mb-2 block font-semibold">Name</label>
+        <input
+          type="text"
+          placeholder="Your name"
+          className={`w-full rounded-xl border px-5 py-4 outline-none focus:border-blue-500 ${
+            darkMode
+              ? "border-slate-600 bg-slate-800 text-white placeholder:text-slate-400"
+              : "border-slate-300 bg-white text-slate-950 placeholder:text-slate-500"
+          }`}
+        />
+      </div>
+
+      <div>
+        <label className="mb-2 block font-semibold">Email</label>
+        <input
+          type="email"
+          placeholder="username@domain.com"
+          className={`w-full rounded-xl border px-5 py-4 outline-none focus:border-blue-500 ${
+            darkMode
+              ? "border-slate-600 bg-slate-800 text-white placeholder:text-slate-400"
+              : "border-slate-300 bg-white text-slate-950 placeholder:text-slate-500"
+          }`}
+        />
+      </div>
+
+      <div>
+        <label className="mb-2 block font-semibold">Message</label>
+        <textarea
+          placeholder="Your message..."
+          className={`h-44 w-full resize-none rounded-xl border px-5 py-4 outline-none focus:border-blue-500 ${
+            darkMode
+              ? "border-slate-600 bg-slate-800 text-white placeholder:text-slate-400"
+              : "border-slate-300 bg-white text-slate-950 placeholder:text-slate-500"
+          }`}
+        ></textarea>
+      </div>
+
+      <button
+        type="button"
+        className={`w-full rounded-xl px-6 py-4 font-bold transition ${
+          darkMode
+            ? "bg-blue-600 text-white hover:bg-blue-500"
+            : "bg-blue-700 text-white hover:bg-blue-600"
+        }`}
+      >
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+{/* FOOTER */}
+<footer
+  className={`border-t py-6 text-center text-sm ${
+    darkMode
+      ? "border-white/10 text-slate-400"
+      : "border-slate-200 text-slate-600"
+  }`}
+>
+  © 2026 Ramindu Sulakkana. Built with React & Tailwind CSS.
+</footer>
+</div>
+);
 }
