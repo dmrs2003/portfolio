@@ -465,7 +465,7 @@ export default function App() {
       : "border-slate-200 text-slate-600"
   }`}
 >
-  © 2026 Ramindu Sulakkana. Built with React & Tailwind CSS.
+  © 2026 Ramindu Sulakkana — All Rights Reserved.
 </footer>
 </div>
 );
