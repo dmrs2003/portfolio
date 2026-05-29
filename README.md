@@ -136,7 +136,7 @@ Professional contact section with:
 This portfolio website was successfully deployed using **Netlify** 🚀
 
 🔗 Live Website:  
-https://ramindusulakkana.netlify.app
+https://ramindusulakkana.netlify.app/
 
 Special thanks to **Netlify** for providing free and reliable hosting for modern web applications.
 
