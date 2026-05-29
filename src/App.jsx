@@ -44,8 +44,8 @@ export default function App() {
       desc: "Machine learning system that predicts student performance using academic data.",
       image: "/StudentPerformance.png",
       tech: ["Python", "Pandas", "ML"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/dmrs2003/student-performance-prediction.git",
+      demo: "https://github.com/dmrs2003/student-performance-prediction.git",
     },
 
     {
