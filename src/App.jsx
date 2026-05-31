@@ -53,8 +53,8 @@ export default function App() {
       desc: "Interactive dashboard for business analytics and revenue visualization.",
       image: "/sales.png",
       tech: ["Power BI", "SQL", "Excel"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/dmrs2003/sales-analytics-dashboard.git",
+      demo: "https://app.powerbi.com/groups/me/reports/fd119243-901a-4645-8c7d-0b44dc54983c/e1ac2a205feb77986e99?experience=power-bi",
     },
 
     {
